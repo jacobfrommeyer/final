@@ -24,5 +24,5 @@ html: $(DOXCONFIG) *.c *.h
 
 #Clean up old .o files, executable, and archived file
 clean:
-	-rm -f *.o wc wc.tgz
-	-rm -rf html
+	-rm -f *.o wc wc.tgz *.txt
+	-rm -rf html 
